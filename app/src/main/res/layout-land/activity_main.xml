@@ -69,12 +69,12 @@
         <TableRow
             android:gravity="center">
             <Button
-                android:id="@+id/button_submit"
+                android:id="@+id/button4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="0dp"
                 android:layout_marginRight="0dp"
-                android:text="SUBMIT" />
+                android:text="Submit" />
         </TableRow>
         <TableRow android:gravity="center">
             <TextView
