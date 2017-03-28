@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello world!"
+        android:id="@+id/textView" />
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+    <TableRow
+        android:gravity="center">
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:text="przycisk1"
+            android:id="@+id/button1" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="przycisk2"
+            android:id="@+id/button2" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="przycisk3"
+            android:id="@+id/button3" />
+
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TableRow
+            android:layout_marginLeft="20dp">
+            <TextView
+                android:text="First Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0" />
+            <EditText
+                android:id="@+id/first_name"
+                android:width="200px"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </TableRow>
+        <TableRow
+            android:layout_marginLeft="20dp">
+            <TextView
+                android:text="Surname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0" />
+            <EditText
+                android:id="@+id/surname"
+                android:width="200px"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            </TableRow>
+        <TableRow
+            android:gravity="center">
+            <Button
+                android:id="@+id/button_submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:text="SUBMIT" />
+        </TableRow>
+    </TableLayout>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textAfterSubmit"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>
+
+
